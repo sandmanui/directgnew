@@ -2,6 +2,7 @@
 2. once installed all npm modules, you can run ng serve and can browse application with http://localhost:4200 , after copy solution , you can run command "npm install" which will install all npm dependencies.
 3. I have used bootstrap to make application responsive, also used LESS file and mixins to reuse the css classes.
 4. There are in build accordion controls can be used , such as MD accordion, Angular Material accordion as well, i have used normal div and panel combination and function to expand/ hide pane written in accordian component ts file.
+Remember the correct file name is accordiannew.component, as the old file has the same name, i have not yet deleted that to avoid compilation errors.
 5. Test case written for accordiannew.component.spec.ts to check component created, to check header element content, rest of the test cases can be written further.
 6. Test case written for data service in file data.service.spec.ts
     i. To check service instance created
