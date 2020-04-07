@@ -1,3 +1,14 @@
+1. Run npm install command from command line from location of folder.
+2. once installed all npm modules, you can run ng serve and can browse application with http://localhost:4200 , after copy solution , you can run command "npm install" which will install all npm dependencies.
+3. I have used bootstrap to make application responsive, also used LESS file and mixins to reuse the css classes.
+4. There are in build accordion controls can be used , such as MD accordion, Angular Material accordion as well, i have used normal div and panel combination and function to expand/ hide pane written in accordian component ts file.
+5. Test case written for accordiannew.component.spec.ts to check component created, to check header element content, rest of the test cases can be written further.
+6. Test case written for data service in file data.service.spec.ts
+    i. To check service instance created
+    ii. To check getJson method which returns the data, i have created mock response and equated with expected response. Similar tests can be written further.
+7. Test case runner : Karma, Test Framework : Jasmin, config level info can be found in Karma.config file
+8. Two svg files created, one for Plus and one for Minus symbols.
+
 # Directg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
