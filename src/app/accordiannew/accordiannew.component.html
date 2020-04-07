@@ -1,0 +1,19 @@
+<div class="container">
+  <span class="header">HAVE A QUESTION? WE CAN HELP</span>
+  <hr style="border-bottom:15px solid black;">
+  <div *ngFor="let item of data; let i = index" class="row accordionheader">
+    <div class="col-md-1 centeralign">
+      <label><b>Q{{ i + 1 }}</b></label>
+    </div>
+    <div class="col-md-11">
+      <button class="accordion" (click)="toggleAccordian($event, i)">
+        {{ item.question }}
+      </button>
+    </div>
+    <div class="panel" hide="!item.isActive">
+      <p>{{ item.answer }}</p>
+    </div>
+    <th></th>
+  </div>
+
+</div>

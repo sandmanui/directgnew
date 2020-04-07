@@ -1,0 +1,7 @@
+ <svg xmlns="http://www.w3.org/2000/svg" class="svg"
+ width="40px" height="40px" viewBox="0 0 357 357">
+	<g id="add">
+	<rect x="0" y="0" width="100%" height="100%" fill="yellow"></rect>
+  <text x="50%" y="50%" width="100%" height="100%" font-size="300" font-family="Verdana" dominant-baseline="middle" text-anchor="middle" fill="black">x</text>
+	</g>
+</svg>

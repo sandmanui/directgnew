@@ -1,0 +1,14 @@
+<p>accordian works!</p>
+<div *ngFor="let item of data; let i = index">
+
+    <label>{{ i }}</label>
+    <button class="accordion" (click)="toggleAccordian($event, i)">
+      {{ item.question }}
+    </button>
+
+  <div class="panel" hide="!item.isActive">
+    <p>{{ item.answer }}</p>
+  </div>
+</div>
+
+<br /><br /><br />
